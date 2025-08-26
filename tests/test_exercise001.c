@@ -1,7 +1,17 @@
 #include <CUnit/Basic.h>
 #include "exercises.h"
 
-// Print name, DOB, and mobile number
+/**
+1. Print name, DOB, and mobile number
+
+Write a C program to print your name, date of birth, and mobile number.
+Expected Output:
+
+Name   : Alexandra Abramov  
+DOB    : July 14, 1975  
+Mobile : 99-9999999999
+
+ */
 
 void test_exercise001(void)
 {

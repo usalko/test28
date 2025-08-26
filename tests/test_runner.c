@@ -14,7 +14,7 @@ int main() {
     // Регистрация тестовых наборов
     CU_register_suites((CU_SuiteInfo[]){
         {
-            .pName = "exercise001",
+            .pName = "1. Print name, DOB, and mobile number",
             .pInitFunc = NULL,
             .pCleanupFunc = NULL,
             .pTests = exercise001_tests
