@@ -1,5 +1,5 @@
 #include <CUnit/Basic.h>
-#include "../include/exercises.h"
+#include "exercises.h"
 
 // Print name, DOB, and mobile number
 

@@ -1,3 +1,6 @@
+#include "exercises.h"
+#include <stdio.h>
+
 // Print name, DOB, and mobile number
 int exercise001(char *name, char *dob, char *mobile_number) {
     printf("Name : %s", name);
