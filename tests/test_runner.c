@@ -19,6 +19,12 @@ int main() {
             .pCleanupFunc = NULL,
             .pTests = exercise001_tests
         },
+        {
+            .pName = "2. Get the C version in use",
+            .pInitFunc = NULL,
+            .pCleanupFunc = NULL,
+            .pTests = exercise002_tests
+        },
         CU_SUITE_INFO_NULL
     });
 

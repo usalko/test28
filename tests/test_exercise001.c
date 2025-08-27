@@ -45,5 +45,5 @@ void test_exercise001(void)
 }
 
 CU_TestInfo exercise001_tests[] = {
-    {"test_add_numbers", test_exercise001},
+    {"Print name, DOB, and mobile number #1", test_exercise001},
     CU_TEST_INFO_NULL};

@@ -3,5 +3,6 @@
 
 // Test functions declarations
 int exercise001(char *name, char *dob, char *mobile_number);
+char* exercise002();
 
 #endif
