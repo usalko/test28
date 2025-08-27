@@ -4,11 +4,6 @@
 #include <stdio.h>
 
 // Get the C version
-char* exercise002() {
-    char dest[50] = "We are using ";
-    char version[6];
-
-    sprintf(version, "%ld", __STDC_VERSION__);
-    strcat(dest, version);
-    return &dest[0];
+void exercise002(char *result) {
+    sprintf(result, "We are using %ld", __STDC_VERSION__);
 }

@@ -2,6 +2,8 @@
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake")
 find_package(CUnit REQUIRED)
 
+enable_testing()
+
 # Создаем исполняемый файл для тестов
 file(GLOB TEST_SOURCES "*.c")
 add_executable(test_runner ${TEST_SOURCES})

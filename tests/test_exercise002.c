@@ -13,13 +13,16 @@ We are using C18!
 
 void test_exercise002(void)
 {
+
+    char version[50];
+
     // Call the function under test
-    char *version = exercise002();
+    exercise002(version);
 
     // Assert the captured output
     char expected[100];
     sprintf(expected, "We are using %ld", __STDC_VERSION__);
-    CU_ASSERT_STRING_EQUAL(version, &expected[0]);
+    CU_ASSERT_STRING_EQUAL(version, expected);
 }
 
 CU_TestInfo exercise002_tests[] = {
