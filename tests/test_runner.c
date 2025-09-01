@@ -7,6 +7,7 @@
 extern CU_TestInfo exercise001_tests[];
 extern CU_TestInfo exercise002_tests[];
 extern CU_TestInfo exercise003_tests[];
+extern CU_TestInfo exercise004_tests[];
 
 int main() {
     // Инициализация CUnit
@@ -28,6 +29,10 @@ int main() {
                           .pInitFunc = NULL,
                           .pCleanupFunc = NULL,
                           .pTests = exercise003_tests},
+                         {.pName = "4. Reverse characters ('X', 'M', 'L')",
+                          .pInitFunc = NULL,
+                          .pCleanupFunc = NULL,
+                          .pTests = exercise004_tests},
                          CU_SUITE_INFO_NULL});
 
     if (error != CUE_SUCCESS) {
